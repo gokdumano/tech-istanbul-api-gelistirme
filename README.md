@@ -110,7 +110,7 @@ Yeni Yorum Oluştur:
 curl --location --request POST 'http://tech-istanbul-api-gelistirme.test/api/v1/comments' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --header 'Authorization: Bearer ••••••••••••••••••' \
---data-urlencode 'post_id=255' \
+--data-urlencode 'post_id={post_id}' \
 --data-urlencode 'body=Yeni yapılan bir yorum'
 ```
 
